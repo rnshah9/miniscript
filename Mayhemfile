@@ -1,0 +1,9 @@
+project: rnshah9/miniscript
+target: miniscript
+image: ghcr.io/rnshah9/playground:miniscript
+tests:
+  - file://test.gram
+
+cmds:
+  - cmd: /repo/miniscript
+ #    filepath: /test.c
