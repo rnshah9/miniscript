@@ -1,9 +1,10 @@
 project: rnshah9/miniscript
 target: miniscript
 image: ghcr.io/rnshah9/playground:miniscript
-tests:
-  - file://test.gram
+testsuite:
+  - file://test
 
 cmds:
   - cmd: /repo/miniscript
- #    filepath: /test.c
+    env:
+      DISABLE_SMOKETEST: '1'
